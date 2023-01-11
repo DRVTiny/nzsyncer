@@ -1,0 +1,23 @@
+name: nzsyncer
+version: 0.4.2
+
+authors:
+  - Andrey A. Konovalov <drvtiny@gmail.com>
+
+targets:
+  nbx:
+    main: src/nbx.cr
+    
+dependencies:
+  halite:
+    github: icyleaf/halite
+  zabipi:
+    github: DRVTiny/monitoring_zabipi
+  app_name:
+    github: DRVTiny/app_name    
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 1.3.2
+
+license: MIT

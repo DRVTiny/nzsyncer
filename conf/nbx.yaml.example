@@ -1,0 +1,12 @@
+connection:
+    server: netbox.example.com
+    type: https
+api:
+    token: verylongstring
+zabbix:
+    prod:
+        url: https://zabbix.example.com/
+        login: abuser
+        password: AndThisIsMyPasswordBro!
+        hosts_dump: ./data/zabbix_prod_hosts.json
+        
