@@ -1,6 +1,6 @@
-# nbx
+# nzsyncer
 
-TODO: Write a description here
+Sync Netbox tenants and vms/hosts to Zabbix host groups and hosts
 
 ## Installation
 
@@ -8,8 +8,10 @@ TODO: Write installation instructions here
 
 ## Usage
 
-TODO: Write usage instructions here
-
+```
+./bin/dump_zabbix_prod_hosts && \
+                ./bin/nzsyncer
+```
 ## Development
 
 TODO: Write development instructions here
